@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/png">
+        <file>Home_pic.jpg</file>
+        <file>star_pu1.jpg</file>
+        <file>star_pu2.jpg</file>
+        <file>star_pu3.jpg</file>
+        <file>star.jpg</file>
+        <file>drive.jpg</file>
+        <file>class.jpg</file>
+        <file>dr_res.xml</file>
+        <file>standby.jpg</file>
+    </qresource>
+</RCC>

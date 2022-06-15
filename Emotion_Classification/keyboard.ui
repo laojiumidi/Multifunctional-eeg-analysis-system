@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>keyboard</class>
+ <widget class="QWidget" name="keyboard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>721</width>
+    <height>296</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 255, 255);</string>
+  </property>
+  <widget class="QPushButton" name="K_L">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>60</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x4c</string>
+   </property>
+   <property name="text">
+    <string>L</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_R">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x52</string>
+   </property>
+   <property name="text">
+    <string>R</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_4">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>0</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x34</string>
+   </property>
+   <property name="text">
+    <string>4</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_U">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>30</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x55</string>
+   </property>
+   <property name="text">
+    <string>U</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>0</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x32</string>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_N">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>90</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x4e</string>
+   </property>
+   <property name="text">
+    <string>N</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_9">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>0</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x39</string>
+   </property>
+   <property name="text">
+    <string>9</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_0">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>0</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x30</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_T">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x54</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_B">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>90</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x42</string>
+   </property>
+   <property name="text">
+    <string>B</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_O">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>30</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x4f</string>
+   </property>
+   <property name="text">
+    <string>O</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_A">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x41</string>
+   </property>
+   <property name="text">
+    <string>A</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_V">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>90</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x56</string>
+   </property>
+   <property name="text">
+    <string>V</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_space">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>120</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x20</string>
+   </property>
+   <property name="text">
+    <string>Space</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>0</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x33</string>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_6">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>0</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x36</string>
+   </property>
+   <property name="text">
+    <string>6</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_W">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>30</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x57</string>
+   </property>
+   <property name="text">
+    <string>W</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_S">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>60</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x53</string>
+   </property>
+   <property name="text">
+    <string>S</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_Y">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>30</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x59</string>
+   </property>
+   <property name="text">
+    <string>Y</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_Z">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>90</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x5a</string>
+   </property>
+   <property name="text">
+    <string>Z</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_H">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>60</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x48</string>
+   </property>
+   <property name="text">
+    <string>H</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_D">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>60</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x44</string>
+   </property>
+   <property name="text">
+    <string>D</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_X">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>90</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x58</string>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_back">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>60</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x01000003</string>
+   </property>
+   <property name="text">
+    <string>&lt;&lt;</string>
+   </property>
+   <property name="autoRepeat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_E">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x45</string>
+   </property>
+   <property name="text">
+    <string>E</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_7">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>0</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x37</string>
+   </property>
+   <property name="text">
+    <string>7</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_J">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>60</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x4a</string>
+   </property>
+   <property name="text">
+    <string>J</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_K">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>60</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x4b</string>
+   </property>
+   <property name="text">
+    <string>K</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_G">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>60</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x47</string>
+   </property>
+   <property name="text">
+    <string>G</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_5">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>0</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x35</string>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x31</string>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_I">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>30</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x49</string>
+   </property>
+   <property name="text">
+    <string>I</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_8">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>0</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x38</string>
+   </property>
+   <property name="text">
+    <string>8</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_F">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>60</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x46</string>
+   </property>
+   <property name="text">
+    <string>F</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_P">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>30</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x50</string>
+   </property>
+   <property name="text">
+    <string>P</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_Q">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x51</string>
+   </property>
+   <property name="text">
+    <string>Q</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_C">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>90</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x43</string>
+   </property>
+   <property name="text">
+    <string>C</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_M">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>90</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x4e</string>
+   </property>
+   <property name="text">
+    <string>M</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PB_1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x4e</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PB_2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>90</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string>0x4e</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QWidget" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>643</width>
+    <height>292</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <property name="locale">
+   <locale language="Chinese" country="China"/>
+  </property>
+  <widget class="QWidget" name="login_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>0</y>
+     <width>321</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="1">
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>ID:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="line_id"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="3">
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="6">
+        <spacer name="horizontalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>14</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>15</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="ensure">
+         <property name="text">
+          <string>Yes</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>15</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="3">
+        <widget class="QPushButton" name="clear">
+         <property name="text">
+          <string>Clear</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>14</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="5">
+        <widget class="QPushButton" name="quit">
+         <property name="text">
+          <string>Quit</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>140</y>
+     <width>641</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="K_1">
+      <property name="accessibleName">
+       <string>0x31</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="2">
+     <widget class="QPushButton" name="K_2">
+      <property name="accessibleName">
+       <string>0x32</string>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3" colspan="2">
+     <widget class="QPushButton" name="K_3">
+      <property name="accessibleName">
+       <string>0x33</string>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5" colspan="2">
+     <widget class="QPushButton" name="K_4">
+      <property name="accessibleName">
+       <string>0x34</string>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7" colspan="2">
+     <widget class="QPushButton" name="K_5">
+      <property name="accessibleName">
+       <string>0x35</string>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="9" colspan="2">
+     <widget class="QPushButton" name="K_6">
+      <property name="accessibleName">
+       <string>0x36</string>
+      </property>
+      <property name="text">
+       <string>6</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="11" colspan="2">
+     <widget class="QPushButton" name="K_7">
+      <property name="accessibleName">
+       <string>0x37</string>
+      </property>
+      <property name="text">
+       <string>7</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="13" colspan="2">
+     <widget class="QPushButton" name="K_8">
+      <property name="accessibleName">
+       <string>0x38</string>
+      </property>
+      <property name="text">
+       <string>8</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="15" colspan="2">
+     <widget class="QPushButton" name="K_9">
+      <property name="accessibleName">
+       <string>0x39</string>
+      </property>
+      <property name="text">
+       <string>9</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="17">
+     <widget class="QPushButton" name="K_0">
+      <property name="accessibleName">
+       <string>0x30</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="K_Q">
+      <property name="accessibleName">
+       <string>0x51</string>
+      </property>
+      <property name="text">
+       <string>Q</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QPushButton" name="K_W">
+      <property name="accessibleName">
+       <string>0x57</string>
+      </property>
+      <property name="text">
+       <string>W</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3" colspan="2">
+     <widget class="QPushButton" name="K_E">
+      <property name="accessibleName">
+       <string>0x45</string>
+      </property>
+      <property name="text">
+       <string>E</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5" colspan="2">
+     <widget class="QPushButton" name="K_R">
+      <property name="accessibleName">
+       <string>0x52</string>
+      </property>
+      <property name="text">
+       <string>R</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="7" colspan="2">
+     <widget class="QPushButton" name="K_T">
+      <property name="accessibleName">
+       <string>0x54</string>
+      </property>
+      <property name="text">
+       <string>T</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="9" colspan="2">
+     <widget class="QPushButton" name="K_Y">
+      <property name="accessibleName">
+       <string>0x59</string>
+      </property>
+      <property name="text">
+       <string>Y</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="11" colspan="2">
+     <widget class="QPushButton" name="K_U">
+      <property name="accessibleName">
+       <string>0x55</string>
+      </property>
+      <property name="text">
+       <string>U</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="13" colspan="2">
+     <widget class="QPushButton" name="K_I">
+      <property name="accessibleName">
+       <string>0x49</string>
+      </property>
+      <property name="text">
+       <string>I</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="15" colspan="2">
+     <widget class="QPushButton" name="K_O">
+      <property name="accessibleName">
+       <string>0x4f</string>
+      </property>
+      <property name="text">
+       <string>O</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="17">
+     <widget class="QPushButton" name="K_P">
+      <property name="accessibleName">
+       <string>0x50</string>
+      </property>
+      <property name="text">
+       <string>P</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="K_A">
+      <property name="accessibleName">
+       <string>0x41</string>
+      </property>
+      <property name="text">
+       <string>A</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="2">
+     <widget class="QPushButton" name="K_S">
+      <property name="accessibleName">
+       <string>0x53</string>
+      </property>
+      <property name="text">
+       <string>S</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3" colspan="2">
+     <widget class="QPushButton" name="K_D">
+      <property name="accessibleName">
+       <string>0x44</string>
+      </property>
+      <property name="text">
+       <string>D</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="5" colspan="2">
+     <widget class="QPushButton" name="K_F">
+      <property name="accessibleName">
+       <string>0x46</string>
+      </property>
+      <property name="text">
+       <string>F</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="7" colspan="2">
+     <widget class="QPushButton" name="K_G">
+      <property name="accessibleName">
+       <string>0x47</string>
+      </property>
+      <property name="text">
+       <string>G</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="9" colspan="2">
+     <widget class="QPushButton" name="K_H">
+      <property name="accessibleName">
+       <string>0x48</string>
+      </property>
+      <property name="text">
+       <string>H</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="11" colspan="2">
+     <widget class="QPushButton" name="K_J">
+      <property name="accessibleName">
+       <string>0x4a</string>
+      </property>
+      <property name="text">
+       <string>J</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="13" colspan="2">
+     <widget class="QPushButton" name="K_K">
+      <property name="accessibleName">
+       <string>0x4b</string>
+      </property>
+      <property name="text">
+       <string>K</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="15" colspan="2">
+     <widget class="QPushButton" name="K_L">
+      <property name="accessibleName">
+       <string>0x4c</string>
+      </property>
+      <property name="text">
+       <string>L</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="17">
+     <widget class="QPushButton" name="K_back">
+      <property name="accessibleName">
+       <string>0x01000003</string>
+      </property>
+      <property name="text">
+       <string>&lt;&lt;</string>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" rowspan="2" colspan="2">
+     <widget class="QPushButton" name="CapsLk">
+      <property name="accessibleName">
+       <string>0x4e</string>
+      </property>
+      <property name="text">
+       <string>abc</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2" colspan="2">
+     <widget class="QPushButton" name="K_Z">
+      <property name="accessibleName">
+       <string>0x5a</string>
+      </property>
+      <property name="text">
+       <string>Z</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4" colspan="2">
+     <widget class="QPushButton" name="K_X">
+      <property name="accessibleName">
+       <string>0x58</string>
+      </property>
+      <property name="text">
+       <string>X</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="6" colspan="2">
+     <widget class="QPushButton" name="K_C">
+      <property name="accessibleName">
+       <string>0x43</string>
+      </property>
+      <property name="text">
+       <string>C</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="8" colspan="2">
+     <widget class="QPushButton" name="K_V">
+      <property name="accessibleName">
+       <string>0x56</string>
+      </property>
+      <property name="text">
+       <string>V</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="10" colspan="2">
+     <widget class="QPushButton" name="K_B">
+      <property name="accessibleName">
+       <string>0x42</string>
+      </property>
+      <property name="text">
+       <string>B</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="12" colspan="2">
+     <widget class="QPushButton" name="K_N">
+      <property name="accessibleName">
+       <string>0x4e</string>
+      </property>
+      <property name="text">
+       <string>N</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="14" colspan="2">
+     <widget class="QPushButton" name="K_M">
+      <property name="accessibleName">
+       <string>0x4e</string>
+      </property>
+      <property name="text">
+       <string>M</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="16" rowspan="2" colspan="2">
+     <widget class="QPushButton" name="PB_2">
+      <property name="accessibleName">
+       <string>0x4e</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2" colspan="14">
+     <widget class="QPushButton" name="K_space">
+      <property name="accessibleName">
+       <string>0x20</string>
+      </property>
+      <property name="text">
+       <string>Space</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>quit</sender>
+   <signal>clicked()</signal>
+   <receiver>login</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>309</x>
+     <y>137</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>111</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

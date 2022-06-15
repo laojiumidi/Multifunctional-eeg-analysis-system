@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strategy>
+    <number>
+        <user>xxx</user>
+        <warn_times>2</warn_times>
+        <timelapse>400s</timelapse>
+        <ave_att>65</ave_att>
+        <date>3-23-16</date>
+    </number>
+    <number>
+        <user>yyy</user>
+        <warn_times>2</warn_times>
+        <timelapse>400s</timelapse>
+        <ave_att>65</ave_att>
+        <date>3-23-16</date>
+    </number>
+    <number>
+        <user>zzz</user>
+        <warn_times>2</warn_times>
+        <timelapse>400s</timelapse>
+        <ave_att>65</ave_att>
+        <date>3-23-16</date>
+    </number>
+    <number>
+        <user>fff</user>
+        <warn_times>5</warn_times>
+        <timelapse>400</timelapse>
+        <ave_att>65</ave_att>
+        <date>2019-03-23 18:27:48</date>
+    </number>
+    <number>
+        <user>zzz</user>
+        <warn_times>2</warn_times>
+        <timelapse>400</timelapse>
+        <ave_att>65</ave_att>
+        <date>2019-03-23 18:49:47</date>
+    </number>
+    <number>
+        <user>rrr</user>
+        <warn_times>1</warn_times>
+        <timelapse>400</timelapse>
+        <ave_att>65</ave_att>
+        <date>2019-03-23 19:02:03</date>
+    </number>
+</strategy>

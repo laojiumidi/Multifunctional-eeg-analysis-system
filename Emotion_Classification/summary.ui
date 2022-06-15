@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>summary</class>
+ <widget class="QWidget" name="summary">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>786</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(85, 170, 255);</string>
+  </property>
+  <widget class="QLabel" name="time_lapse">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>150</y>
+     <width>301</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>30</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>              ID </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>150</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>       Time Lapse</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ave_med">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>430</y>
+     <width>301</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="id">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>30</y>
+     <width>301</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ave_att">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>280</y>
+     <width>301</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>430</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>  Average Meditation</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>590</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>      Positive Rate</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="positive_rate">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>590</y>
+     <width>301</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>280</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>   Average Attention</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="home">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>690</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Sans Serif&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
